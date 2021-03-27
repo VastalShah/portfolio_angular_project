@@ -42,6 +42,7 @@ export class SignupComponent implements OnInit {
         } else{
           localStorage.setItem("email", this.email);
           localStorage.setItem("password", this.pass);
+          alert("You have succesfully registered");
         }
       }
     }
